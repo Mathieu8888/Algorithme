@@ -407,7 +407,7 @@ else:
     with tab_perf_pos: render_ranking('perf_1y', False, "gainers")
     with tab_perf_neg: render_ranking('perf_1y', True, "losers")
 
- st.markdown("---")
+    st.markdown("---")
 
 # ---------------------------------------------------------
 # CSS
