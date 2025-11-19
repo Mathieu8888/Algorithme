@@ -407,6 +407,9 @@ else:
     with tab_perf_pos: render_ranking('perf_1y', False, "gainers")
     with tab_perf_neg: render_ranking('perf_1y', True, "losers")
 
+ st.markdown("---")
+        c1, = st.columns(1)
+        c1.metric("📊 Indicateurs", "100+")
 # ---------------------------------------------------------
 # CSS
 # ---------------------------------------------------------
