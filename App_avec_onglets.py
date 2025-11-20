@@ -438,7 +438,9 @@ st.markdown("""
     h3 { margin-top: 1.5rem; margin-bottom: 0.5rem; }
     h4 { margin-top: 1.2rem; margin-bottom: 0.4rem; }
     
-    /* Pour cacher les labels si besoin (non utilisé ici car on veut les labels comme sur l'image) */
-    /* label[for^="st-radio"] div[data-testid="stWidgetLabel"] { display: none; } */
+    /* Masquer le menu et le header Streamlit */
+    header { visibility: hidden; }
+    .stDeployButton { display:none; }
+    
 </style>
 """, unsafe_allow_html=True)
